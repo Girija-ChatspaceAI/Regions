@@ -10153,8 +10153,8 @@
 					"id": "FLK"
 				},
 				{
-					"arcs": [[299]],
-					"type": "Polygon",
+					"arcs": [[[299]],[[300,-248,-183,301,302,-280,303,-67]]],
+					"type": "MultiPolygon",
 					"properties": {
                         "region": "Southern Europe",
                         "region_id": "se",
