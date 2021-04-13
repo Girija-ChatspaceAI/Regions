@@ -9692,14 +9692,20 @@
 				{
 					"arcs": [[18, 19, 20, 21, 22]],
 					"type": "Polygon",
-					"properties": { "name": "United Arab Emirates", "Alpha-2": "AE" },
-					"id": "ARE"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "UAE"
+                    }
 				},
 				{
 					"arcs": [[[23, 24]], [[25, 26, 27, 28, 29, 30]]],
 					"type": "MultiPolygon",
-					"properties": { "name": "Argentina", "Alpha-2": "AR" },
-					"id": "ARG"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Argentina"
+                    }
 				},
 				{
 					"arcs": [[31, 32, 33, 34, 35]],
@@ -9734,8 +9740,11 @@
 				{
 					"arcs": [[[45]], [[46]]],
 					"type": "MultiPolygon",
-					"properties": { "name": "Australia", "Alpha-2": "AU" },
-					"id": "AUS"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Australia"
+                    }
 				},
 				{
 					"arcs": [[47, 48, 49, 50, 51, 52, 53]],
@@ -9857,8 +9866,11 @@
 				{
 					"arcs": [[-27, 124, -123, 125, 126, 127, 128, 129, 130, 131, 132]],
 					"type": "Polygon",
-					"properties": { "name": "Brazil", "Alpha-2": "BR" },
-					"id": "BRA"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Brazil"
+                    }
 				},
 				{
 					"arcs": [[133, 134]],
@@ -9918,8 +9930,11 @@
 						[[180]]
 					],
 					"type": "MultiPolygon",
-					"properties": { "name": "Canada", "Alpha-2": "CA" },
-					"id": "CAN"
+					"properties": {
+                        "region": "North America",
+                        "region_id": "na",
+                        "country": "Canada"
+                    }
 				},
 				{
 					"arcs": [[-51, 181, 182, 183]],
@@ -9964,8 +9979,11 @@
 						]
 					],
 					"type": "MultiPolygon",
-					"properties": { "name": "China", "Alpha-2": "CN" },
-					"id": "CHN"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "China"
+                    }
 				},
 				{
 					"arcs": [[206, 207, 208, 209, -75, 210]],
@@ -9999,8 +10017,11 @@
 				{
 					"arcs": [[228, 229, 230, 231, 232, -127, 233]],
 					"type": "Polygon",
-					"properties": { "name": "Colombia", "Alpha-2": "CO" },
-					"id": "COL"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Colombia"
+                    }
 				},
 				{
 					"arcs": [[234, 235, 236, 237]],
@@ -10077,8 +10098,11 @@
 				{
 					"arcs": [[270, 271, 272, 273, 274]],
 					"type": "Polygon",
-					"properties": { "name": "Egypt", "Alpha-2": "EG" },
-					"id": "EGY"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Egypt"
+                    }
 				},
 				{
 					"arcs": [[275, 276, 277, -256]],
@@ -10089,8 +10113,11 @@
 				{
 					"arcs": [[278, 279, 280, 281]],
 					"type": "Polygon",
-					"properties": { "name": "Spain", "Alpha-2": "ES" },
-					"id": "ESP"
+					"properties": {
+                        "region": "Southern Europe",
+                        "region_id": "se",
+                        "country": "Spain"
+                    }
 				},
 				{
 					"arcs": [[282, 283, 284]],
@@ -10126,10 +10153,13 @@
 					"id": "FLK"
 				},
 				{
-					"arcs": [[[299]], [[300, -248, -183, 301, 302, -280, 303, -67]]],
-					"type": "MultiPolygon",
-					"properties": { "name": "France", "Alpha-2": "FR" },
-					"id": "FRA"
+					"arcs": [[299]],
+					"type": "Polygon",
+					"properties": {
+                        "region": "Southern Europe",
+                        "region_id": "se",
+                        "country": "France"
+                    }
 				},
 				{
 					"arcs": [[304, 305, -212, -228]],
@@ -10197,8 +10227,11 @@
 				{
 					"arcs": [[331, 332, -102, 333, 334, 335]],
 					"type": "Polygon",
-					"properties": { "name": "Guatemala", "Alpha-2": "GT" },
-					"id": "GTM"
+					"properties": {
+                        "region": "North America",
+                        "region_id": "na",
+                        "country": "Guatemala"
+                    }
 				},
 				{
 					"arcs": [[336, 337, 338, -131]],
@@ -10265,8 +10298,11 @@
 				{
 					"arcs": [[-199, 373, -197, -136, -196, 374, -82, 375, 376]],
 					"type": "Polygon",
-					"properties": { "name": "India", "Alpha-2": "IN" },
-					"id": "IND"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "India"
+                    }
 				},
 				{
 					"arcs": [[377, -307]],
@@ -10307,8 +10343,11 @@
 				{
 					"arcs": [[[397]], [[398]], [[399, 400, -302, -182, -50]]],
 					"type": "MultiPolygon",
-					"properties": { "name": "Italy", "Alpha-2": "IT" },
-					"id": "ITA"
+					"properties": {
+                        "region": "Southern Europe",
+                        "region_id": "se",
+                        "country": "Italy"
+                    }
 				},
 				{
 					"arcs": [[401]],
@@ -10325,8 +10364,11 @@
 				{
 					"arcs": [[[406]], [[407]], [[408]]],
 					"type": "MultiPolygon",
-					"properties": { "name": "Japan", "Alpha-2": "JP" },
-					"id": "JPN"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Japan"
+                    }
 				},
 				{
 					"arcs": [[409, 410, 411, 412, -203, 413]],
@@ -10433,8 +10475,11 @@
 				{
 					"arcs": [[-265, 452, 453, 454]],
 					"type": "Polygon",
-					"properties": { "name": "Morocco", "Alpha-2": "MA" },
-					"id": "MAR"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Morocco"
+                    }
 				},
 				{
 					"arcs": [[455, 456]],
@@ -10451,8 +10496,11 @@
 				{
 					"arcs": [[-100, -333, 458, 459, 460]],
 					"type": "Polygon",
-					"properties": { "name": "Mexico", "Alpha-2": "MX" },
-					"id": "MEX"
+					"properties": {
+                        "region": "North America",
+                        "region_id": "na",
+                        "country": "Mexico"
+                    }
 				},
 				{
 					"arcs": [[-430, 461, -87, -329, -18]],
@@ -10463,8 +10511,11 @@
 				{
 					"arcs": [[462, -262, 463, -76, -210, -321, 464]],
 					"type": "Polygon",
-					"properties": { "name": "Mali", "Alpha-2": "ML" },
-					"id": "MLI"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Mali"
+                    }
 				},
 				{
 					"arcs": [[[465]], [[466]]],
@@ -10639,8 +10690,11 @@
 				{
 					"arcs": [[-282, 534]],
 					"type": "Polygon",
-					"properties": { "name": "Portugal", "Alpha-2": "PT" },
-					"id": "PRT"
+					"properties": {
+                        "region": "Southern Europe",
+                        "region_id": "se",
+                        "country": "Portugal"
+                    }
 				},
 				{
 					"arcs": [[-124, -125, -26]],
@@ -10723,8 +10777,11 @@
 				{
 					"arcs": [[561, -404, -387, -432, 562, -537, 563, -23, -509, 564]],
 					"type": "Polygon",
-					"properties": { "name": "Saudi Arabia", "Alpha-2": "SA" },
-					"id": "SAU"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Saudi Arabia"
+                    }
 				},
 				{
 					"arcs": [[565, 566, -143, 567, -443, -271, 568, -277, -291, 569]],
@@ -10741,8 +10798,11 @@
 				{
 					"arcs": [[573, -481, -465, -320, -325, 574, -323]],
 					"type": "Polygon",
-					"properties": { "name": "Senegal", "Alpha-2": "SN" },
-					"id": "SEN"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Senegal"
+                    }
 				},
 				{
 					"arcs": [[[575]], [[576]], [[577]], [[578]], [[579]]],
@@ -10840,8 +10900,11 @@
 				{
 					"arcs": [[597, -487, 598, -469, -433, -422]],
 					"type": "Polygon",
-					"properties": { "name": "Thailand", "Alpha-2": "TH" },
-					"id": "THA"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Thailand"
+                    }
 				},
 				{
 					"arcs": [[-420, -201, -3, 599]],
@@ -10876,8 +10939,11 @@
 				{
 					"arcs": [[[-313, -36, -383, -390, -596, 605]], [[-330, -85, 606]]],
 					"type": "MultiPolygon",
-					"properties": { "name": "Turkey", "Alpha-2": "TR" },
-					"id": "TUR"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Turkey"
+                    }
 				},
 				{
 					"arcs": [[607]],
@@ -10909,8 +10975,11 @@
 				{
 					"arcs": [[-133, 612, -28]],
 					"type": "Polygon",
-					"properties": { "name": "Uruguay", "Alpha-2": "UY" },
-					"id": "URY"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Uruguay"
+                    }
 				},
 				{
 					"arcs": [
@@ -10926,8 +10995,11 @@
 						[[-161, 623]]
 					],
 					"type": "MultiPolygon",
-					"properties": { "name": "United States of America", "Alpha-2": "US" },
-					"id": "USA"
+					"properties": {
+                        "region": "North America",
+                        "region_id": "na",
+                        "country": "USA"
+                    }
 				},
 				{
 					"arcs": [[-602, -410, -421, -600, -2]],
@@ -10968,14 +11040,20 @@
 				{
 					"arcs": [[-492, -138, 629, -477, -594, -475, 630, 631], [-446]],
 					"type": "Polygon",
-					"properties": { "name": "South Africa", "Alpha-2": "ZA" },
-					"id": "ZAF"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "South Africa"
+                    }
 				},
 				{
 					"arcs": [[-484, -479, 632, -140, -491, -7, -222, -610]],
 					"type": "Polygon",
-					"properties": { "name": "Zambia", "Alpha-2": "ZM" },
-					"id": "ZMB"
+					"properties": {
+                        "region": "Growing Markets",
+                        "region_id": "gm",
+                        "country": "Zambia"
+                    }
 				},
 				{
 					"arcs": [[-630, -141, -633, -478]],
